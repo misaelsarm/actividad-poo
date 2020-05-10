@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pregunta 2</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div>
+        <h3 class="text-center">
+            Pregunta 2 - ¿Quien es Ignacio Allende?
+        </h3>
+    </div>
+    <div class="imgs d-flex align-items-center">
+        <div class="imagenes-2">
+            <div class="contenedor" id="respuesta">
+                <div class="img1">
+                </div>
+            </div>
+            <div class="contenedor" id="respuesta">
+                <div class="img2">
+
+                </div>
+            </div>
+            <div class="contenedor" id="respuesta">
+                <div class="img3">
+
+                </div>
+            </div>
+            <div class="contenedor" id="respuesta">
+                <div class="img4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="correcta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-success text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Respuesta correcta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- contenido del modal -->
+                <div class="modal-body">
+                    <!-- imagen -->
+                    <div class="text-center">
+                        <img class="w-50" src="./personajes/allende_ignacio_2.jpg" alt="">
+                    </div>
+                    <br>
+                    <!-- texto del modal  -->
+                    <p class="text-justify">Nombre completo: Ignacio José de Allende y Unzaga
+                        <br>Fecha de nacimiento: 21 de enero de 1769, San Miguel de Allende.
+                        <br>Fallecimiento: 26 de junio de 1811, Chihuahua.
+                        <br>Militar independentista mexicano, uno de los más destacados protagonistas de la primera fase de la insurrección que conduciría a la independencia de México. Tras una serie de victorias y derrotas, debidas en parte estas últimas a las carencias estratégicas de Miguel Hidalgo, asumió el mando de las huestes insurgentes cuando la sublevación ya había sido prácticamente aplastada.
+                        
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary">Ver más</button>
+                    <a href="pregunta3.html"><button type="button" class="btn btn-primary">Siguiente pregunta</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="incorrecta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-danger text-white">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Respuesta incorrecta</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <img class="w-50" src="./personajes/allende_ignacio_2.jpg" alt="">
+                    </div>
+                    <br>
+                    <p class="text-justify">Nombre completo: Ignacio José de Allende y Unzaga.
+                        <br>Fecha de nacimiento: 21 de enero de 1769, San Miguel de Allende.
+                        <br>Fallecimiento: 26 de junio de 1811, Chihuahua.
+                        <br>Militar independentista mexicano, uno de los más destacados protagonistas de la primera fase de la insurrección que conduciría a la independencia de México. Tras una serie de victorias y derrotas, debidas en parte estas últimas a las carencias estratégicas de Miguel Hidalgo, asumió el mando de las huestes insurgentes cuando la sublevación ya había sido prácticamente aplastada.
+                        
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Ver más</button>
+                    <a href="pregunta3.html"><button type="button" class="btn btn-primary">Siguiente pregunta</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script type="module" src="pregunta2.js"></script>
+</body>
+
+</html>
